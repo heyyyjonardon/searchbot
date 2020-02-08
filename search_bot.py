@@ -5,7 +5,7 @@ class SearchBot():
 
     def __init__(self):
         
-        self.driver = webdriver.Chrome('E:\PythonFiles\chromedriver_win32 79\chromedriver.exe')
+        self.driver = webdriver.Chrome('/path/to/chromedriver')
     
     def google_search(self):
 
