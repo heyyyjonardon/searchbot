@@ -1,4 +1,4 @@
-import pyperclip,schedule,webbrowser
+import pyperclip
 from selenium import webdriver
 
 class SearchBot():
@@ -25,7 +25,7 @@ class SearchBot():
  
 
 
-def do():
+def search():
     while True:
         old_search = pyperclip.paste()
 
@@ -37,7 +37,7 @@ def do():
                 continue
             elif newmaybe!=old_search:
                 break
-do()
+search()
 
 
 
